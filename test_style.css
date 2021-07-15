@@ -1,0 +1,54 @@
+/* body{
+  background-color: #E6E6FA;
+} */
+#indexbg, #answerbg, #questbg{
+  background-color: #E6E6FA;
+}
+body, #choice, #re{
+  font-family: 'Jeju Gothic', sans-serif;
+}
+img{
+  width: 100px;
+}
+#q{
+  font-size: 25px;
+  color: #483D8B;
+}
+#a{
+  font-size: 30px;
+  color: #9932CC;
+}
+.quest, .answer, .return, .index{
+  text-align: center;
+}
+#choice{
+  font-size: 15px;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  background-color: white;
+  padding: 10px;
+}
+#re{
+  font-size: 15px;
+  border-radius: 5%;
+  width: 70px;
+  height: 30px;
+  background-color: #9932CC;
+  color
+  padding: 3px;
+}
+#choice, #re{
+  border: none;
+  margin: 10px;
+}
+#choice:hover{
+  background-color: #9370DB;
+}
+#choice:hover, #re{
+  color: white;
+}
+#re:hover{
+  background-color: white;
+  color: #9932CC;
+}
